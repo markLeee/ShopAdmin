@@ -6,6 +6,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// 临时关闭new 的校验规则(eslint)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
