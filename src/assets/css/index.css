@@ -1,0 +1,16 @@
+/*
+ * @Author: Lee.mark 
+ * @Date: 2018-05-17 22:26:07 
+ * @Last Modified by:   Lee.mark 
+ * @Last Modified time: 2018-05-17 22:26:07 
+ */
+
+ html, body, #app {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

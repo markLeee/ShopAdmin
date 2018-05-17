@@ -1,3 +1,14 @@
-<div>
-  <p>login component</p>
+<div class="login-wrap">
+  <!-- el-form 会生成 form 标签 -->
+  <el-form class="login-from" label-position="top" ref="form" :model="loginForm" :rules="loginFormRule">
+    <el-form-item prop="username">
+      <el-input v-model="loginForm.username" placeholder="用户名"></el-input>
+    </el-form-item>
+    <el-form-item prop="password">
+      <el-input type="password" v-model="loginForm.password" placeholder="密码"></el-input>
+    </el-form-item>
+    <el-form-item>
+      <el-button class="login-btn" type="primary" @click="handleLogin">立即登陆</el-button>
+    </el-form-item>
+  </el-form>
 </div>
